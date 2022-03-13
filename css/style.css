@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #E5E5E5;
+}
+
+.poppins {
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.container-card {
+  background-color: #ffff;
+  width: 497px;
+  height: 402px;
+  border-radius:  32px;
+  padding: 64px;
+  box-sizing: border-box;
+}
+
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;  
+}
+
+.user-image {
+  margin-right: 16px;
+}
+
+.name-user {
+  color: #291F68;
+  font-family: Merriweather;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 8px;
+  margin: 0px;
+}
+
+.user-location {
+  display: flex;
+  align-items: center;
+}
+
+.location  {
+  margin-right: 4px;
+}
+
+.country-user {
+  color: #291F68;
+  line-height: 24px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#291F68;
+  border-radius: 8px;
+  color:  #FFFFFF;
+  font-size: 18px;
+  border: none;
+  height: 59px;
+  line-height: 27px;
+  width: 369px;
+}
+
+.button-follow {
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.btn-icon {
+  margin-right: 4px;
+}
+
+.btn-text {
+  margin-left: 4px;
+}
+
+.button-message {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #291F68;
+  color: #291F68;
+}
